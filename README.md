@@ -7,14 +7,13 @@ IMPORTATE: Disponibilizar el servicio de API [Georesearch API](https://github.co
 
 	git clone https://github.com/benjaminarteaga/georesearch-front.git
 	cd georesearch-front
-	npm install
 
 ## Disponibilizar
 
 En la raíz del proyecto ejecutar el siguiente comando para levantar el server:
 
 	docker build -t benjaminarteaga/georesearch-front .
-  docker run -d -it -p 3011:80/tcp benjaminarteaga/georesearch-front
+	docker run -d -it -p 3011:80/tcp benjaminarteaga/georesearch-front
 
 ## Visualizar
 
